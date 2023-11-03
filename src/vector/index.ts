@@ -92,7 +92,10 @@ function checkBrowserFeatures(): boolean {
     return featureComplete;
 }
 
-const supportedBrowser = checkBrowserFeatures();
+// [syner] 屏蔽浏览器检测  by 王远
+// const supportedBrowser = checkBrowserFeatures();
+checkBrowserFeatures();
+const supportedBrowser = true;
 
 // React depends on Map & Set which we check for using modernizr's es6collections
 // if modernizr fails we may not have a functional react to show the error message.
