@@ -2,7 +2,7 @@
     "default_server_config": {
         "m.homeserver": {
             "base_url": "http://49.232.244.254:8008/",
-            "server_name": "Synergence"
+            "server_name": "Cona.AI"
         },
         "m.identity_server": {
             "base_url": "http://49.232.244.254:8008/"
@@ -12,7 +12,7 @@
     "disable_guests": false,
     "disable_login_language_selector": false,
     "disable_3pid_login": false,
-    "brand": "Element",
+    "brand": "Cona.AI",
     "integrations_ui_url": "https://scalar.vector.im/",
     "integrations_rest_url": "https://scalar.vector.im/api",
     "integrations_widgets_urls": [

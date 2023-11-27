@@ -1,0 +1,5 @@
+{
+    "aichat_config": {
+        "serv_url": "http://localhost:8000/aichat/"
+    }
+}

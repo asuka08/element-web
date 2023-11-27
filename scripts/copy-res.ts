@@ -38,6 +38,8 @@ const COPY_LIST: [
     ["node_modules/@matrix-org/olm/olm_legacy.js", "webapp", { directwatch: 1 }],
     ["./config.json", "webapp", { directwatch: 1 }],
     ["contribute.json", "webapp"],
+    ["./cona.config.json", "webapp", { directwatch: 1 }],
+
 ];
 const argv = parseArgs(process.argv.slice(2), {});
 

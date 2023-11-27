@@ -30,6 +30,7 @@ FROM --platform=linux/amd64 nginx@sha256:e3dd8f3abfcc0450c96d61b58c3e05b3b4fdeb0
 
 COPY ./webapp /app
 COPY ./config.azure.json /app/config.json
+COPY ./cona.config.azure.json /app/cona.config.json
 
 # Override default nginx config
 COPY /nginx/conf.d/default.conf /etc/nginx/conf.d/default.conf
