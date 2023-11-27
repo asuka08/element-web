@@ -1,11 +1,11 @@
 {
     "default_server_config": {
         "m.homeserver": {
-            "base_url": "http://49.232.244.254:8008/",
+            "base_url": "http://matrix.cona.ai/",
             "server_name": "Synergence"
         },
         "m.identity_server": {
-            "base_url": "http://49.232.244.254:8008/"
+            "base_url": "http://matrix.cona.ai/"
         }
     },
     "disable_custom_urls": false,
