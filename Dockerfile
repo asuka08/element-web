@@ -29,8 +29,8 @@
 FROM --platform=linux/amd64 nginx@sha256:e3dd8f3abfcc0450c96d61b58c3e05b3b4fdeb0680c155aa3246f9be4b80343a
 
 COPY ./webapp /app
-COPY ./config.azure.json /app/config.json
-COPY ./cona.config.azure.json /app/cona.config.json
+COPY ./syner_scripts/config.azure.json /app/config.json
+COPY ./syner_scripts/cona.azure.config.json /app/cona.config.json
 
 # Override default nginx config
 COPY /nginx/conf.d/default.conf /etc/nginx/conf.d/default.conf
