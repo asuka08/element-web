@@ -2,7 +2,7 @@
     "default_server_config": {
         "m.homeserver": {
             "base_url": "http://49.232.244.254:8008/",
-            "server_name": "Cona.AI"
+            "server_name": "Test Cona"
         },
         "m.identity_server": {
             "base_url": "http://49.232.244.254:8008/"

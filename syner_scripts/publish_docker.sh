@@ -33,4 +33,4 @@ echo "$sudo_password" | sudo -S docker build --platform linux/amd64 -t asuka08/e
 echo "推送镜像到 Docker Hub..."
 docker push asuka08/element-web-syner:$tag
 
-echo "Docker 镜像发布完成！"
+echo "Docker Hub 镜像发布完成！"
